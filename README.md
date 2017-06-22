@@ -10,13 +10,17 @@ Example
 --------
 Add these to the Cargo.toml of the top level crate for the project using iptool-core:
 
-```[dependencies]
-iptool-core = { path = "iptool-core" }```
+```
+[dependencies]
+iptool-core = { path = "iptool-core" }
+```
 
 and
 
-```[workspace]
-members = ["iptool-core"]```
+```
+[workspace]
+members = ["iptool-core"]
+```
 
 Now a `cargo build --release` or `cargo build` will compile the lib and the main program.<br />
 See (insert link) for examples of how to wrap interfaces around this lib.
