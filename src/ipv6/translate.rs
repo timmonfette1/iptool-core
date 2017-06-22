@@ -14,7 +14,7 @@ use super::validate::validate_6to4;
 pub fn ipv6_to_ipv4(v6: String) -> String {
     let valid = validate_6to4(&v6);
     if valid == false {
-        let err = "IPv6 address is not valid! Cannot translate this address";
+        let err = "IPv6 address is not valid! Cannot translate this address\nValid IPv6 to IPv4 addresses are:\n2002::xxxx:xxxx or 2002:xxxx:xxxx::";
         return err.to_owned();
     }
 
