@@ -4,7 +4,10 @@ Rust based core of the IP Tool.
 
 Include this lib crate  as a dependency for any program to make use of it.<br />
 Simply set your top level crate as a workspace and add iptool-core as a dependency.<br />
-Note that you should remove this README and LICENSE when using this lib. You only need the "src" and the "Cargo.toml".
+Note that you can remove this README and LICENSE when using this lib if you so desire.
+You only need the "src" and the "Cargo.toml".
+
+You can use this repo as a submodule in any git project as well.
 
 Example
 --------
