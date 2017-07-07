@@ -9,6 +9,17 @@ You only need the "src" and the "Cargo.toml".
 
 You can use this repo as a submodule in any git project as well.
 
+Supported Functions
+------------
+The tool supports the following IP functions:
+
+  - Validates an IPv4 address.
+  - Converts an IPv4 address to IPv6.
+  - Converts an IPv4 address to it's binary representation.
+  - Validates an IPv6 address.
+  - Converts an IPv6 address to IPv4;
+  - Converts an IPv6 address to it's binary representation.
+
 Example
 --------
 Add these to the Cargo.toml of the top level crate for the project using iptool-core:
