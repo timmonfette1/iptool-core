@@ -26,4 +26,3 @@ members = ["iptool-core"]
 ```
 
 Now a `cargo build --release` or `cargo build` will compile the lib and the main program.<br />
-See (insert link) for examples of how to wrap interfaces around this lib.
