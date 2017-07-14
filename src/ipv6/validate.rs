@@ -15,10 +15,10 @@ use utilities::helpers::pad_with_zeros;
 // Function for validating an IPv6 address
 pub fn validate_ipv6(address: String) -> String {
     let valid = valid_ipv6(&address);
-    let mut ret = "The IPv6 address you entered is invalid";
+    let mut ret = "Invalid";
 
     if valid == true {
-        ret = "The IPv6 address you entered is valid";
+        ret = "Valid";
     }
 
     ret.to_owned()

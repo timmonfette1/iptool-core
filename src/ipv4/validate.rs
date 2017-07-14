@@ -12,10 +12,10 @@ use regex::Regex;
 // Function for validating an IPv4 address
 pub fn validate_ipv4(address: String) -> String {
     let valid = valid_ipv4(&address);
-    let mut ret = "The IPv4 address you entered is invalid";
+    let mut ret = "Invalid";
 
     if valid == true {
-        ret = "The IPv4 address you entered is valid";
+        ret = "Valid";
     }
 
     ret.to_owned()
